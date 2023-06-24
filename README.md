@@ -1,7 +1,7 @@
 # To_Do_Tasks 
 This repository contains code for a "to-do checklist" application built using Flutter and Dart. The code is organized into multiple files, each serving a specific purpose.
 
-The AddTaskScreen class represents a screen where users can add new tasks to their checklist. It consists of a container with a light blue background color and a child container that holds the actual content. The content includes a heading "Add task," a text field for inputting task details, and a button labeled "Add" to submit the task.
+The AddTaskScreen class represents a screen where users can add new tasks to their checklist. It consists of a container with a light blue background color and a child container that holds the actual content. The content includes a heading "Add task," a text field for inputting task details, and a button labeled "Add" to submit the task. 
 
 The TaskScreen class represents the main screen of the application. It includes a floating action button for adding new tasks, which opens a modal bottom sheet containing the AddTaskScreen. The body of the screen consists of a column with a container at the top, displaying the application name and the number of tasks. Below that, there's an expanded container that displays the list of tasks using the TasksList widget.
 
