@@ -6,7 +6,7 @@ class TaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
+      child: Scaffold( 
         backgroundColor: Colors.lightBlue,
         floatingActionButton: FloatingActionButton(backgroundColor: Colors.lightBlue,child:Icon(Icons.add),
         onPressed: (){
